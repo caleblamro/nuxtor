@@ -24,6 +24,9 @@
 				<NavLink to="/file">
 					File
 				</NavLink>
+				<NavLink to="/surreal">
+					SurrealDB
+				</NavLink>
 			</div>
 			<div hidden lg="flex flex-1 justify-end">
 				<p text-sm text-white font-semibold leading-6>

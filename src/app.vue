@@ -7,6 +7,21 @@
 		</Body>
 	</Html>
 </template>
+<script setup lang="ts">
+import { invoke } from '@tauri-apps/api/core';
+
+
+onMounted(() => {
+  invoke<string>('greet', { name: 'Caleb' }).then((message) => {
+    console.log(message)
+  })
+
+  invoke<number>('add', { a: 1, b: 1 }).then((message) => {
+    console.log(`1 + 1 = ${message}`)
+  })
+})
+
+</script>
 
 <style lang="scss">
 	html {

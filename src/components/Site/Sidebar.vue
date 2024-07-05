@@ -26,6 +26,9 @@
 								<NavLink to="/os">
 									OS Informations
 								</NavLink>
+								<NavLink to="/surreal">
+									SurrealDB
+								</NavLink>
 								<NavLink to="/foo">
 									404
 								</NavLink>
